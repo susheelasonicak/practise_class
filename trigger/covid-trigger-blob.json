@@ -1,0 +1,24 @@
+{
+	"name": "covid-trigger-blob",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/covid-blob/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/4dc563f5-a3f2-4f57-9afa-1b2b2868637e/resourceGroups/covid-project/providers/Microsoft.Storage/storageAccounts/covidstorage1982",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

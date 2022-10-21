@@ -1,0 +1,9 @@
+{
+	"name": "susheeladatafac123",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "664a7189-d3ea-48d3-90da-f0e265bdd671",
+		"tenantId": "c7a1b4f8-ac17-454b-9a9f-fc3977343790"
+	}
+}
